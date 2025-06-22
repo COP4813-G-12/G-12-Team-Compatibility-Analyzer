@@ -1,40 +1,32 @@
 # G-12-Team-Compatibility-Analyzer
 
-================================================================================
-G-12 - Team Compatibility Analyzer
-================================================================================
-
 A web application that matches users together based on a compatibility score 
 determined by the 16 Myers-Briggs personality types.
 
-================================================================================
-Project Structure
-================================================================================
+## Project Structure
 
 1. HTML scripts (4 files)
 2. PHP scripts (8 files)
 3. SQL script (1 file)
 
-================================================================================
-Setup Instructions (localhost)
-================================================================================
+## Setup Instructions (localhost)
 
-1. Software Requirements
-------------------------
+### 1. Software Requirements
+----------------------------
 1. PHP 7.0 or greater
 2. Local MySQL/Apache Server (XAMPP Control Panel recommended)
 3. Internet Web Browser
 
-2. Database Setup
------------------
+### 2. Database Setup
+---------------------
 1. Open the MySQL/Apache server.
 2. Create a new database named 'team_compatibility'.
 3. Import the 'init.sql' file into the created database.
    - Confirmation message should state: "Import has been successfully finished, 
      5 queries executed. (init.sql)".
 
-3. Server Setup (if needed)
----------------------------
+### 3. Server Setup (if needed)
+-------------------------------
 1. Open the 'db.php' file.
 2. Update the file information in accordance to the local MySQL/Apache server:
    
@@ -43,8 +35,8 @@ Setup Instructions (localhost)
    $user = 'server_db_user';
    $pass = 'server_db_password';
 
-Troubleshooting Server Setup (if needed)
------------------------------------------
+### 3a. Troubleshooting Server Setup (if needed)
+------------------------------------------------
 1. Open the 'init.sql' file.
 2. Delete the following code section:
    
@@ -57,7 +49,7 @@ Troubleshooting Server Setup (if needed)
    - Confirmation message should state: "Import has been successfully finished, 
      3 queries executed. (init.sql)".
 
-4. Hosting the Web Application
+### 4. Hosting the Web Application
 ------------------------------
 1. Move project folders into the root directory of the local MySQL/Apache server.
 2. Enable MySQL and Apache using the server control panel.
@@ -70,9 +62,7 @@ Troubleshooting Server Setup (if needed)
    
    http://localhost:8000/frontend/login.html
 
-================================================================================
-Testing the System
-================================================================================
+## Testing the Application
 
 1. Login using the default login information: Username=admin, Password=password123
 2. At the Admin Home page, click 'Register User' to register a new user:
