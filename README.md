@@ -50,11 +50,12 @@ determined by the 16 Myers-Briggs personality types.
      3 queries executed. (init.sql)".
 
 ### 4. Hosting the Web Application
-------------------------------
+----------------------------------
 1. Move project folders into the root directory of the local MySQL/Apache server.
-2. Enable MySQL and Apache using the server control panel.
+   - C:\xampp\htdocs
+3. Enable MySQL and Apache using the server control panel.
    - If using a built-in PHP server, run in the terminal: php -S localhost:8000
-3. Enter in the following URL into the browser:
+4. Enter in the following URL into the browser:
    
    http://localhost/your-project-folder/frontend/login.html
    
