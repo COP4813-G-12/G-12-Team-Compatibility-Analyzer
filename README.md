@@ -62,14 +62,16 @@ determined by the 16 Myers-Briggs personality types.
    
    http://localhost:8000/frontend/login.html
 
-## Testing the Application
+## Testing the Web Application
 
 1. Login using the default login information: Username=admin, Password=password123
 2. At the Admin Home page, click 'Register User' to register a new user:
    - Name=John Smith, Personality=INTP, Project Type: Software Development
 3. Navigate back to Admin Home, click 'Register User' again for another user:
    - Name=Jane Doe, Personality=ESFJ, Project Type=Project Management
-4. Navigate back to Admin Home, click 'Match Users' to match the existing users
+4. Navigate back to Admin Home, click 'View All Users' to view the users saved
+   in the database.
+5. Navigate back to Admin Home, click 'Match Users' to match the existing users
    together.
-5. Navigate back to Admin Home, click 'View Matches' to view the matched users.
-6. Navigate back to Admin Home, click 'Logout' to end the admin session.
+6. Navigate back to Admin Home, click 'View Matches' to view the matched users.
+7. Navigate back to Admin Home, click 'Logout' to end the admin session.
