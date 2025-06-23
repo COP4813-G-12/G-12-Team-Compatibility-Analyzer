@@ -17,16 +17,16 @@ determined by the 16 Myers-Briggs personality types.
 2. Local MySQL/Apache Server (XAMPP Control Panel recommended)
 3. Internet Web Browser
 
-### 2. Database Setup
----------------------
+### 2. Database Setup (skip step 3/3a if no issues arise)
+---------------------------------------------------------
 1. Open the MySQL/Apache server.
 2. Create a new database named 'team_compatibility'.
 3. Import the 'init.sql' file into the created database.
    - Confirmation message should state: "Import has been successfully finished, 
      5 queries executed. (init.sql)".
 
-### 3. Server Setup (if needed)
--------------------------------
+### 3. Server Setup (not needed, only follow if having trouble)
+---------------------------------------------------------------
 1. Open the 'db.php' file.
 2. Update the file information in accordance to the local MySQL/Apache server:
    
@@ -35,8 +35,8 @@ determined by the 16 Myers-Briggs personality types.
    $user = 'server_db_user';
    $pass = 'server_db_password';
 
-### 3a. Troubleshooting Server Setup (if needed)
-------------------------------------------------
+### 3a. Troubleshooting Server Setup (not needed, only follow if having trouble)
+--------------------------------------------------------------------------------
 1. Open the 'init.sql' file.
 2. Delete the following code section:
    
