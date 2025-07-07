@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Post</title>
+</head>
+<body>
+    <h2>Submit Post</h2>
+    <form action="../backend/add_post.php" method="POST">
+        <label for="user_id">User ID:</label>
+        <input type="number" name="user_id" required><br><br>
+
+        <label for="content">Post Content:</label><br>
+        <textarea name="content" rows="5" cols="50" required></textarea><br><br>
+
+        <input type="submit" value="Submit Post">
+    </form>
+</body>
+</html>
