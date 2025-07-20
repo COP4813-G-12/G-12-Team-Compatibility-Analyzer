@@ -79,7 +79,7 @@ Web Application Features:
 2. User Management: Admins can view, add, edit, delete, activate/deactivate users.
 3. Content Moderation: Admins can view, approve, reject, or flag user-submitted posts.
 4. Data Entry
-   - Admins can add, edit, delete project roles.
+   - Admins can add and delete project roles, user matches, and assigned roles.
    - Admins can use the "Match Users" feature to calculate compatibility scores based on Myers-Briggs types.
    - Matches are accessible via the "Admin Panel".
 5. Admin Analytics Dashboard: Accessible via the "Admin Panel".
