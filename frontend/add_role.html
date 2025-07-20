@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head><title>Add Project Role</title></head>
+<body>
+    <h2>Add New Project Role</h2>
+    <form method="POST" action="../backend/add_project_role.php">
+        Role Name: <input type="text" name="name" required><br><br>
+        X-Factor (1-16): <input type="number" name="x_factor" min="1" max="16" required><br><br>
+        <input type="submit" value="Add Role">
+    </form>
+</body>
+</html>
