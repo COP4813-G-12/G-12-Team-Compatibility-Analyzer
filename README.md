@@ -3,10 +3,12 @@
 A web application that matches users together based on a compatibility score 
 determined by the 16 Myers-Briggs personality types.
 
+Online-hosted version: https://fsu-cop4813-g12-tca.infinityfreeapp.com/
+
 ## Project Structure
 
 1. HTML scripts (8 files)
-2. PHP scripts (20 files)
+2. PHP scripts (25 files)
 3. SQL script (2 files)
 
 ## Setup Instructions (localhost)
@@ -99,6 +101,7 @@ Web Application Features:
    - Most Common Personality Types
    - Top Post Categories (Time-based trends)
    - Most Used Features
+   - User Assigned Roles
    Search and Filter Tools:
    - Admins can filter dashboard data (User Registrations Over Time graph & Top Post Categories table only) by a custom date range using calendar fields at the top of the dashboard.
 
